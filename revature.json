@@ -1,0 +1,15 @@
+{
+  "type": "java",
+  "testFiles": [
+    {
+      "path": "src/test/java/TruncateTest.java",
+      "testCases": [
+        {
+          "methodName": "problem1Test",
+          "label": "Verify truncating the song table removes all records",
+          "description": "Runs problem1(), then selects all rows from the song table and verifies that the result set is empty (row count equals 0)."
+        }
+      ]
+    }
+  ]
+}
